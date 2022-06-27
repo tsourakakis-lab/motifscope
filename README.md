@@ -9,5 +9,24 @@ Motifs are small subgraph patterns that play a key role towards understanding th
 
 - We perform an extensive experimental analysis of different generative models with respect to how they assess statistical significance. 
 
-# Code Description 
+# Datasets
 
+We upload the C. elegans - brain network in the dataset folder. For the rest datasets, links are provided.
+
+PPI networks: http://interactome.dfci.harvard.edu/index.php?page=home
+
+hamsterster: https://networkrepository.com/soc-hamsterster.php
+
+Eris1176: https://networkrepository.com/power-eris1176.php
+
+Bitcoin networks and LastFM, Twitch: https://snap.stanford.edu/data/index.html
+
+# Code
+
+To run all the notebooks, install Python3 and required packages. Note we recommend install graphtool using conda before adding other packages into the environment, see https://graph-tool.skewed.de/. 
+
+Please add an empty __init__.py file into the pattern_contrast folder if the corresponding modules cannot be found.
+
+#### Competitors
+
+We use spartan2 for most of the competitors evaluated in the paper for anomaly detection, see https://github.com/BGT-M/spartan2-tutorials.
