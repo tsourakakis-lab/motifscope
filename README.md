@@ -25,7 +25,7 @@ Bitcoin networks and LastFM, Twitch: https://snap.stanford.edu/data/index.html
 
 To run all the notebooks, install Python3 and required packages. Note we recommend install graphtool using conda before adding other packages into the environment, see https://graph-tool.skewed.de/. 
 
-Please add an empty __init__.py file into the pattern_contrast folder if the corresponding modules cannot be found.
+Please add an empty \_\_init__.py file into the pattern_contrast folder if the corresponding modules cannot be found.
 
 #### Competitors
 
