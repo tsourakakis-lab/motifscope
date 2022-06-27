@@ -1,4 +1,5 @@
-# Algorithmic Tools for Mining the Motif Structure of Networks (ECML-PKDD '22)
+# Algorithmic Tools for Mining the Motif Structure of Networks  
+# ECML-PKDD '22
 
 Motifs are small subgraph patterns that play a key role towards understanding the structure and the function of biological and social networks. The current *de facto* approach towards assessing the statistical significance of a motif $\mathcal{M}$ relies on counting its occurrences across the network, and comparing that count to its expected count   under some null generative model. This approach can be misleading due to *combinatorial artifacts*.  That is, there may be a large count for a motif due to multiple copies sharing many vertices and edges connected to a subgraph, such as a clique, that completes the multiple copies of the motif.   In this repository we provide a set of tools for understanding the motif structure of networks. 
 
@@ -7,3 +8,6 @@ Motifs are small subgraph patterns that play a key role towards understanding th
 - We provide an algorithm that can contrast two motifs, and outputs a motif that is dense in one, and sparse in the other. This tool allows us to find anomalies in in large networks, including bipartite cliques in social graphs, and subgraphs rated with distrust in Bitcoin  markets.  
 
 - We perform an extensive experimental analysis of different generative models with respect to how they assess statistical significance. 
+
+# Code Description 
+
